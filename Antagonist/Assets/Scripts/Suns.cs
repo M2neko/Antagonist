@@ -26,6 +26,7 @@ public class Suns : MonoBehaviour
             x -= 0.5f;
             if (x < 67) stopAdd = false;
         }
-        gameObject.GetComponent<SpriteRenderer>().color = new Color(x / 255f,0f,18f / 255f);
+        gameObject.GetComponent<SpriteRenderer>().color = new Color(x / 255f, 0f, 18f / 255f);
     }
+
 }

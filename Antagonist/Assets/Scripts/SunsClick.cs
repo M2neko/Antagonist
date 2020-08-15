@@ -9,6 +9,7 @@ public class SunsClick : MonoBehaviour
     [SerializeField] private GameObject sun = null;
     [SerializeField] private GameObject black = null;
     [SerializeField] private GameObject girl = null;
+    [SerializeField] private GameObject back = null;
 
     void Update()
     {
@@ -54,6 +55,8 @@ public class SunsClick : MonoBehaviour
         sun.GetComponent<SpriteRenderer>().enabled = true;
         
         black.GetComponent<SpriteRenderer>().enabled = false;
+
+        back.GetComponent<BackGroundShake>().isEnable = true;
 
         Destroy(gameObject);
     }

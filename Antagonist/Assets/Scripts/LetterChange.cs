@@ -9,6 +9,9 @@ public class LetterChange : MonoBehaviour
     private bool played1 = false;
     private bool played2 = false;
     [SerializeField] private GameObject black = null;
+    [SerializeField] private GameObject slots = null;
+    [SerializeField] private GameObject glass = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,8 @@ public class LetterChange : MonoBehaviour
             {
                 played1 = true;
                 gameObject.GetComponents<AudioSource>()[0].Play();
+                slots.SendMessage("AddSlot", glass);
+                
             }
 
             if (Input.GetKeyDown("space"))
@@ -33,7 +38,7 @@ public class LetterChange : MonoBehaviour
             }
 
             // Change Later
-            if (Input.GetKeyDown("w"))
+            if (glass.GetComponent<GlassMove>().isDark)
             {
                 gameObject.GetComponent<SpriteRenderer>().sprite = le2;
 
@@ -45,7 +50,7 @@ public class LetterChange : MonoBehaviour
             }
 
             // Change Later
-            if (Input.GetKeyDown("q"))
+            if (!glass.GetComponent<GlassMove>().isDark)
             {
                 gameObject.GetComponent<SpriteRenderer>().sprite = le1;
             }

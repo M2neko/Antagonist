@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{75FD25C1-8A4D-0887-6AD3-21676CE080C1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GreenBack.cs">
     <Files>
-      <File FileName="Assets/Scripts/LetterChange.cs" Line="51" Column="14" />
-      <File FileName="Assets/Scripts/SunsClick.cs" />
-      <File FileName="Assets/Scripts/EnvelopeClick.cs" Line="24" Column="65" />
-      <File FileName="Assets/Scripts/Item.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/LetterChange.cs" Line="48" Column="67" />
+      <File FileName="Assets/Scripts/SunsClick.cs" Line="46" Column="49" />
+      <File FileName="Assets/Scripts/BackGroundShake.cs" Line="24" Column="45" />
+      <File FileName="Assets/Scripts/EnvelopeClick.cs" Line="25" Column="10" />
+      <File FileName="Assets/Scripts/Slots.cs" Line="28" Column="23" />
+      <File FileName="Assets/Scripts/SlotProp.cs" Line="24" Column="24" />
+      <File FileName="Assets/Scripts/Suns.cs" Line="29" Column="52" />
+      <File FileName="Assets/Scripts/GreenBack.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
