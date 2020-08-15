@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{75FD25C1-8A4D-0887-6AD3-21676CE080C1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnvelopeClick.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TestMove.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/EnvelopeClick.cs" Line="16" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="326820cd-9007-4970-a735-65127c6a862b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
