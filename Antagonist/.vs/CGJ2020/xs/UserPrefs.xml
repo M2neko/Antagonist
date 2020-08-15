@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{ADF419FB-6066-F63E-0BC1-25C896ED509F}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FirstSceneSpace.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Move.cs" Line="83" Column="10" />
+      <File FileName="Assets/Scripts/FirstSceneSpace.cs" Line="5" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="326820cd-9007-4970-a735-65127c6a862b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
