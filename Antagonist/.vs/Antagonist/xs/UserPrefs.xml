@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{75FD25C1-8A4D-0887-6AD3-21676CE080C1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnvelopeClick.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Item.cs">
     <Files>
-      <File FileName="Assets/Scripts/TestMove.cs" Line="14" Column="6" />
-      <File FileName="Assets/Scripts/EnvelopeClick.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/LetterChange.cs" Line="51" Column="14" />
+      <File FileName="Assets/Scripts/SunsClick.cs" />
+      <File FileName="Assets/Scripts/EnvelopeClick.cs" Line="24" Column="65" />
+      <File FileName="Assets/Scripts/Item.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
