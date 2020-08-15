@@ -64,8 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BackGroundShake.cs" />
+    <Compile Include="Assets\Scripts\Buttons.cs" />
+    <Compile Include="Assets\Scripts\DoorKey.cs" />
     <Compile Include="Assets\Scripts\EnvelopeClick.cs" />
     <Compile Include="Assets\Scripts\FirstSceneSpace.cs" />
+    <Compile Include="Assets\Scripts\FocusMove.cs" />
     <Compile Include="Assets\Scripts\GlassMove.cs" />
     <Compile Include="Assets\Scripts\GreenBack.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
@@ -73,8 +76,13 @@
     <Compile Include="Assets\Scripts\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\LetterChange.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\OpenBox.cs" />
+    <Compile Include="Assets\Scripts\RevealBox.cs" />
+    <Compile Include="Assets\Scripts\SerectButtons.cs" />
+    <Compile Include="Assets\Scripts\SisMove.cs" />
     <Compile Include="Assets\Scripts\SlotProp.cs" />
     <Compile Include="Assets\Scripts\Slots.cs" />
+    <Compile Include="Assets\Scripts\SmallGirlWalk.cs" />
     <Compile Include="Assets\Scripts\Suns.cs" />
     <Compile Include="Assets\Scripts\SunsClick.cs" />
     <Reference Include="Unity.XR.Management">

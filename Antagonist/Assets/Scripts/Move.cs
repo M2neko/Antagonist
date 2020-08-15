@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Move : MonoBehaviour
 {
+    [SerializeField] public GameObject smallgirl;
     private float Speed = 5.0f;
 
     private void Start()
@@ -82,8 +83,37 @@ public class Move : MonoBehaviour
             gameObject.GetComponent<Animator>().SetFloat("Velocity", Mathf.Abs(rigidBody.velocity.x / 5.0f) + Mathf.Abs(rigidBody.velocity.y / 5.0f));
         }
 
+    }
 
+    public void Smaller()
+    {
+        StartCoroutine(DoSmall());
+    }
 
+    IEnumerator DoSmall()
+    {
+        for (var i = 0; i < 8; i++)
+        {
+            gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x * 0.9f, gameObject.transform.localScale.y * 0.9f, gameObject.transform.localScale.z * 0.9f);
+            yield return new WaitForSeconds(0.3f);
+        }
 
+        gameObject.SetActive(false);
+        smallgirl.SetActive(true);
+    }
+
+    public void Bigger()
+    {
+        StartCoroutine(DoBig());
+    }
+
+    IEnumerator DoBig()
+    {
+        for (var i = 0; i < 8; i++)
+        {
+            gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x / 0.9f, gameObject.transform.localScale.y / 0.9f, gameObject.transform.localScale.z / 0.9f);
+            yield return new WaitForSeconds(0.3f);
+
+        }
     }
 }
