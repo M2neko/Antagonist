@@ -24,7 +24,6 @@ public class RevealBox : MonoBehaviour
 
     void OnMouseOver()
     {
-        Debug.Log("1");
         if (Input.GetMouseButtonDown(0) && (girl.transform.position - gameObject.transform.position).magnitude <= 2.2f && suns == null)
         {
             if (count == 0)

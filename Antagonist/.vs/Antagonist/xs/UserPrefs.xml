@@ -1,13 +1,7 @@
 ﻿<Properties StartupConfiguration="{75FD25C1-8A4D-0887-6AD3-21676CE080C1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DoorKey.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/OpenBox.cs" Line="22" Column="6" />
-      <File FileName="Assets/Scripts/RevealBox.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/SisMove.cs" Line="28" Column="1" />
-      <File FileName="Assets/Scripts/FocusMove.cs" Line="9" Column="5" />
-      <File FileName="Assets/Scripts/Move.cs" Line="16" Column="64" />
-      <File FileName="Assets/Scripts/SmallGirlWalk.cs" Line="29" Column="43" />
-      <File FileName="Assets/Scripts/DoorKey.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/SecondSceneSpace.cs" Line="97" Column="83" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
