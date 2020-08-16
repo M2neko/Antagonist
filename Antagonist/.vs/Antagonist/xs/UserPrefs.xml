@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{75FD25C1-8A4D-0887-6AD3-21676CE080C1}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ThirdSceneSpace.cs">
     <Files>
-      <File FileName="Assets/Scripts/SecondSceneSpace.cs" Line="97" Column="83" />
+      <File FileName="Assets/Scripts/GetChair.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/ThirdSceneSpace.cs" Line="7" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

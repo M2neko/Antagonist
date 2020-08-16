@@ -63,19 +63,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AntClimb.cs" />
     <Compile Include="Assets\Scripts\AntMove.cs" />
     <Compile Include="Assets\Scripts\AntOpen.cs" />
     <Compile Include="Assets\Scripts\BackGroundShake.cs" />
+    <Compile Include="Assets\Scripts\BoxTect.cs" />
     <Compile Include="Assets\Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\ComPuz.cs" />
+    <Compile Include="Assets\Scripts\CubeTest.cs" />
     <Compile Include="Assets\Scripts\DoorKey.cs" />
     <Compile Include="Assets\Scripts\EnvelopeClick.cs" />
     <Compile Include="Assets\Scripts\FirstSceneSpace.cs" />
     <Compile Include="Assets\Scripts\FocusMove.cs" />
+    <Compile Include="Assets\Scripts\GetChair.cs" />
     <Compile Include="Assets\Scripts\GlassMove.cs" />
     <Compile Include="Assets\Scripts\GreenBack.cs" />
     <Compile Include="Assets\Scripts\HitPoint.cs" />
     <Compile Include="Assets\Scripts\HoneyGive.cs" />
+    <Compile Include="Assets\Scripts\HoneyMove.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemClick.cs" />
     <Compile Include="Assets\Scripts\ItemSlot.cs" />
@@ -84,6 +89,7 @@
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\OneMove.cs" />
     <Compile Include="Assets\Scripts\OpenBox.cs" />
+    <Compile Include="Assets\Scripts\OpenFridge.cs" />
     <Compile Include="Assets\Scripts\OpenPhoto.cs" />
     <Compile Include="Assets\Scripts\OpenSecret.cs" />
     <Compile Include="Assets\Scripts\PhotoPuzzle.cs" />
@@ -97,6 +103,7 @@
     <Compile Include="Assets\Scripts\SmallGirlWalk.cs" />
     <Compile Include="Assets\Scripts\Suns.cs" />
     <Compile Include="Assets\Scripts\SunsClick.cs" />
+    <Compile Include="Assets\Scripts\ThirdSceneSpace.cs" />
     <Reference Include="Unity.XR.Management">
       <HintPath>/Users/bingweiwang/Documents/GitHub/CGJ2020/Antagonist/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
