@@ -6,7 +6,6 @@ public class GetChair : MonoBehaviour
 {
     [SerializeField] public int locks = 0;
     [SerializeField] public GameObject jm;
-    [SerializeField] public GameObject girl;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +19,7 @@ public class GetChair : MonoBehaviour
         {
             jm.SetActive(true);
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            girl.GetComponent<ThirdSceneSpace>().lock1 = true;
+            locks++;
         }
     }
 }

@@ -4,8 +4,10 @@ using System.Collections;
 public class BackGroundShake : MonoBehaviour
 {
 
+    [SerializeField] public GameObject girl;
 	public bool isEnable = true;
-	public Vector3 shakedegree = Vector3.one * 0.1f;
+    public bool isEplayed = true;
+    public Vector3 shakedegree = Vector3.one * 0.1f;
 	public float addDegreeTime = 2;
 
 	private Vector3 originPosition;
@@ -20,6 +22,11 @@ public class BackGroundShake : MonoBehaviour
 	{
 		if (isEnable)
 		{
+            if (isEplayed)
+            {
+                girl.GetComponents<AudioSource>()[0].Play();
+                isEplayed = false;
+            }
             if (timeCount < addDegreeTime)
                 timeCount += Time.deltaTime;
             else
@@ -34,6 +41,7 @@ public class BackGroundShake : MonoBehaviour
 			if (timeCount > 0)
 			{
 				timeCount -= Time.deltaTime;
+
 				transform.localPosition = new Vector3(GetX(), GetY(), GetZ());
 			}
 			else

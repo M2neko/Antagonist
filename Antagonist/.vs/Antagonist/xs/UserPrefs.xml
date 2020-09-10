@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{75FD25C1-8A4D-0887-6AD3-21676CE080C1}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ThirdSceneSpace.cs">
     <Files>
-      <File FileName="Assets/Scripts/GetChair.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/ThirdSceneSpace.cs" Line="7" Column="29" />
+      <File FileName="Assets/Scripts/ThirdSceneSpace.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/LoadScene.cs" Line="23" Column="78" />
+      <File FileName="Assets/Scripts/ChangeStory.cs" Line="26" Column="25" />
+      <File FileName="Assets/Scripts/GoBack.cs" Line="22" Column="41" />
+      <File FileName="Assets/Scripts/PhotoPuzzle.cs" Line="31" Column="6" />
+      <File FileName="Assets/Scripts/TheCredits.cs" Line="14" Column="39" />
+      <File FileName="Assets/Scripts/StartGame.cs" Line="4" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

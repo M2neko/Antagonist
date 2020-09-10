@@ -51,6 +51,7 @@ public class SisMove : MonoBehaviour
     
     private void lift(GameObject obj)
     {
+        gameObject.GetComponents<AudioSource>()[0].Play();
         gameObject.transform.position = slot.transform.position;
         obj.GetComponent<SpriteRenderer>().sprite = empty;
         obj.GetComponent<BoxCollider2D>().enabled = false;

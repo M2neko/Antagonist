@@ -11,6 +11,7 @@ public class LetterChange : MonoBehaviour
     [SerializeField] private GameObject black = null;
     [SerializeField] private GameObject slots = null;
     [SerializeField] private GameObject glass = null;
+    [SerializeField] private GameObject newen = null;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,8 @@ public class LetterChange : MonoBehaviour
             {
                 played1 = true;
                 gameObject.GetComponents<AudioSource>()[0].Play();
+                gameObject.GetComponents<AudioSource>()[2].Play();
+                newen.SetActive(true);
                 slots.SendMessage("AddSlot", glass);
                 
             }

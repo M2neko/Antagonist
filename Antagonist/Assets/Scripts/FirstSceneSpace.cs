@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstSceneSpace : MonoBehaviour
 {
+    [SerializeField] public bool lock1 = true;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.GetComponents<AudioSource>()[2].Play();
     }
 
     // Update is called once per frame
@@ -79,9 +81,15 @@ public class FirstSceneSpace : MonoBehaviour
         }
 
         // Right
-        if (gameObject.GetComponent<Rigidbody2D>().position.x > 10.2f)
+        if (gameObject.GetComponent<Rigidbody2D>().position.x > 10.2f && lock1)
         {
             gameObject.GetComponent<Rigidbody2D>().position = new Vector2(10.2f, gameObject.GetComponent<Rigidbody2D>().position.y);
+        }
+
+        if (gameObject.GetComponent<Rigidbody2D>().position.x > 10.2f && !lock1)
+        {
+            gameObject.GetComponents<AudioSource>()[1].Play();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
     }

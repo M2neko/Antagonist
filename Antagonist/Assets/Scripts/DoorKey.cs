@@ -7,6 +7,7 @@ public class DoorKey : MonoBehaviour
     [SerializeField] public GameObject door;
     [SerializeField] public GameObject slot;
     [SerializeField] public GameObject blackdoor;
+    [SerializeField] public GameObject girl;
     Vector3 cubeScreenPos;
     Vector3 offset;
     void OnMouseOver()
@@ -44,8 +45,10 @@ public class DoorKey : MonoBehaviour
 
     private void lift()
     {
+        gameObject.GetComponent<AudioSource>().Play();
+        girl.GetComponent<FirstSceneSpace>().lock1 = false;
         blackdoor.SetActive(true);
-        gameObject.SetActive(false);
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 
 }

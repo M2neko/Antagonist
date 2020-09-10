@@ -56,6 +56,7 @@ public class HoneyGive : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         ants.SetActive(true);
+        gameObject.GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(1f);
 
         hon.SetActive(false);

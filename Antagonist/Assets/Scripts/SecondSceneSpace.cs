@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SecondSceneSpace : MonoBehaviour
 {
@@ -117,7 +118,7 @@ public class SecondSceneSpace : MonoBehaviour
 
             if (transform.position.x > 12.21f)
             {
-                // Con
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
 

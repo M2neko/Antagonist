@@ -26,6 +26,7 @@ public class PhotoPuzzle : MonoBehaviour
         {
             black.SetActive(true);
             photo.SetActive(true);
-        }
+            gameObject.GetComponent<AudioSource>().Play();
+         }
     }
 }

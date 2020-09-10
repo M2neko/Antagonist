@@ -31,33 +31,39 @@ public class HitPoint : MonoBehaviour
         if (b1.GetComponent<Buttons>().Down && ok1)
         {
             ok1 = false;
-            // play music
+            gameObject.GetComponents<AudioSource>()[1].Play();
         }
 
         else if (b2.GetComponent<Buttons>().Down && b1.GetComponent<Buttons>().Down && !ok1 && ok2)
         {
             ok2 = false;
+            gameObject.GetComponents<AudioSource>()[1].Play();
         }
 
         else if (b3.GetComponent<Buttons>().Down && b2.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && !ok1 && !ok2 && ok3)
         {
             ok3 = false;
+            gameObject.GetComponents<AudioSource>()[1].Play();
         }
 
         else if (b4.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && b2.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && !ok1 && !ok2 && !ok3 && ok4)
         {
             ok4 = false;
+            gameObject.GetComponents<AudioSource>()[1].Play();
         }
 
         else if (b5.GetComponent<Buttons>().Down && b4.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && b2.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && !ok1 && !ok2 && !ok3 && !ok4 && ok5)
         {
             ok5 = false;
+            gameObject.GetComponents<AudioSource>()[1].Play();
         }
 
         else if (b6.GetComponent<Buttons>().Down && b5.GetComponent<Buttons>().Down && b4.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && b2.GetComponent<Buttons>().Down && b3.GetComponent<Buttons>().Down && !ok1 && !ok2 && !ok3 && !ok4 && !ok5 && ok6)
         {
-
+            gameObject.GetComponents<AudioSource>()[1].Play();
             girl.GetComponent<SecondSceneSpace>().lock3 = false;
+            girl.GetComponents<AudioSource>()[1].Play();
+            girl.GetComponents<AudioSource>()[2].Play();
             gameObject.SetActive(false);
         }
     }
