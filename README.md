@@ -1,5 +1,6 @@
 
-# Antagonist - Participated in CGJ2020
+# Antagonist 
+### An Entry Participated in CIGA GameJam 2020
 
 ## Team members
 
