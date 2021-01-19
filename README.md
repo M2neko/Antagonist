@@ -1,4 +1,5 @@
-# CGJ2020
+
+# Antagonist - Participated in CGJ2020
 
 ## Team members
 
